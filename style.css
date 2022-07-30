@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    background-color: rgb(244, 238, 229);
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+.banner-section{
+height: 100vh;
+padding-top: 60px;
+padding-bottom: 30px;
+margin-bottom: 140px;
+}
+.nike-react{
+    color:#FA804C;
+}
+.infinity{
+    color: rgb(20, 20, 71);
+}
+button{
+    background-color: rgb(60, 60, 156);
+}
+.bg-color-img{
+    background-color: rgb(243, 238, 238);
+    height: 50vh;
+}
+.price{
+    color: #FA804C;
+}
+.formal-shoes-section{
+    margin-top: 140px;
+}
+.perfect-fit-section{
+    margin-top: 160px;
+}
+footer{
+    background-color: rgb(244, 239, 231);
+}
+
+
+
+@media screen and (max-width:576px) {
+  .flex-container{
+    flex-direction: column-reverse;
+    margin-top: 30px;
+  }
+   .perfect-fit-section .perfect {
+    display: flex;
+    flex-direction: column-reverse;
+   }
+} 
